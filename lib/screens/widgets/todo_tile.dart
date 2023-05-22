@@ -19,7 +19,7 @@ class TodoTile extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
       child: TextButton(
         style: TextButton.styleFrom(
-          padding: const EdgeInsets.fromLTRB(0, 15, 15, 15),
+          padding: const EdgeInsets.all(15),
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
           backgroundColor: const Color(0xFFF5F6F9),
